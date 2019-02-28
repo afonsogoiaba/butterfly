@@ -27,4 +27,12 @@ $(window).on('scroll', function(){
 		document.querySelector('.logo span').style.animationDelay = '0s';
 		document.querySelector('.logo span').style.animationDuration = '1s';
 	}
-})
+});
+
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
