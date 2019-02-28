@@ -1,5 +1,8 @@
 @media screen and (min-width: 1024px){
 
+
+
+
 	header{
 		position: fixed;
 		display: flex;
@@ -61,11 +64,21 @@
 	}
 
 	.midia-linguagem{
-		margin-left: 0;	
+		margin: 0;
+		width: 50px;
+		height: 50px;
+		border-bottom: none;	
 		transition: 0.4s;
+		background: var(--branco);
+		margin-bottom: 10px;
+		border-radius: 40px;
+		padding: var(--metade-padding);
+		display: block;
+
 	}
 
-	.container-lingua span{
+	.container-lingua span,
+	.midia span{
 		display: none;
 	}
 
@@ -73,6 +86,13 @@
 		width: 50px;
 		height: 50px;
 		padding: 0;
+		display: flex;
+		justify-content: center;
+		background: var(--branco);
+		border-radius: 40px;
+		margin-bottom: 10px;
+		border-bottom: none;	
+
 	}
 
 	.midia:hover,
@@ -153,17 +173,17 @@
 	}
 
 	.fundo-home{
-		background-position: center right 40%;
+		background-position: center right 20%;
 	}
 
 	.texto-home{
-		bottom: 60px;
+		bottom: 50px;
 	}
 
 	.texto-home p{
-		top: 20px;
-		width: 720px;
-		font-size: 3.5rem;
+		bottom: 60px;
+		width: 700px;
+		font-size: 3.8rem;
 		animation: texto-home 2s;
 		animation-delay: 2s;
 		animation-fill-mode: forwards;
@@ -171,7 +191,6 @@
 
 	.start a{
 		width: 200px;
-		margin-top: 70px;
 		letter-spacing: 5px;
 		transition: 0.5s;
 		font-size: 1.4rem;
