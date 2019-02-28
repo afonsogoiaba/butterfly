@@ -1,0 +1,17 @@
+{
+  "short_name": "The Evolution | Portfolio",
+  "name": "The Evolution",
+  "description": "The Evolution é um portfólio pessoal visando mostrar meus trabalhos e a evolução dos mesmos durante minha vida acadêmica",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000",
+  "theme_color": "#1ed8d5",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html"
+}
