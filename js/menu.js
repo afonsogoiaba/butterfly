@@ -5,6 +5,7 @@ var line3 = document.querySelector('.line-3');
 var containerMenu = document.querySelector('.container-menu');
 var paragrafoMenu = document.querySelector('.menu p');
 var containerMidia = document.querySelector('.container-midia');
+var header = document.querySelector('header');
 
 
 function start(){
@@ -35,7 +36,10 @@ function start(){
 	containerMenu.style.right = 'unset';
 	containerMenu.style.position = 'fixed';
 
-		document.querySelector('.container-menu-social-lingua').style.animationName = 'none';
+	header.style.height = 'unset';
+	header.style.overflowY = 'hidden';
+		document.querySelector('html').style.overflowY = 'scroll';
+	document.querySelector('.container-menu-social-lingua').style.animationName = 'none';
 
 }
 
@@ -73,6 +77,9 @@ function abrefechaMenu(){
 		paragrafoMenu.style.top = '0px';
 		paragrafoMenu.style.transition = '0.3s';
 
+		header.style.height = '100%';
+		header.style.overflowY = 'scroll';
+		document.querySelector('html').style.overflowY = 'hidden';
 		document.querySelector('.container-menu-social-lingua').style.animationName = 'fade';
 
 	}else{

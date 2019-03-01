@@ -32,9 +32,7 @@ body{
 header{
 	position: fixed;
 	width: 100%;
-	height: 100%;
 	z-index: 1;
-	overflow-y: scroll;
 }
 
 .menu p{
@@ -54,6 +52,10 @@ header{
 	text-align: center;
 	padding: var(--padding-inteiro);
 	color: var(--branco);	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30px;
 }
 
 .logo img{
@@ -286,6 +288,15 @@ nav a{
 	animation-fill-mode: forwards;
 }
 
-.white .logo{
-	display: none;
+.white{
+	background: var(--preto);
+}
+
+.portfolio{
+	background: url(../img/abstract.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.clean-master{
+	padding: 4rem;
 }

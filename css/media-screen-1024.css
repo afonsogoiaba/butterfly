@@ -1,7 +1,4 @@
-@media screen and (min-width: 1024px){
-
-
-
+@media screen and (min-width: 1224px){
 
 	header{
 		position: fixed;
@@ -73,7 +70,7 @@
 		border-radius: 40px;
 		padding: var(--metade-padding);
 		display: block;
-
+		cursor: pointer;
 	}
 
 	.container-lingua span span,
@@ -138,7 +135,7 @@
 		width: unset;
 		margin: 0px;
 		border-bottom: none;
-		font-size: var(--font-texto);
+		font-size: 1rem;
 		color: var(--branco);
 		font-weight: 700;
 		transition: 0.4s;
