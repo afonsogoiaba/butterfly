@@ -32,13 +32,13 @@ function start(){
 	line3.style.position = 'relative';
 	line3.style.bottom = '0px';
 
-	containerMenu.style.left = '0px';
-	containerMenu.style.right = 'unset';
+	containerMenu.style.right = '10px';
+	containerMenu.style.top = '20px';
 	containerMenu.style.position = 'fixed';
 
 	header.style.height = 'unset';
-	header.style.overflowY = 'hidden';
-		document.querySelector('html').style.overflowY = 'scroll';
+	header.style.overflowY = 'visible';
+	document.querySelector('html').style.overflowY = 'scroll';
 	document.querySelector('.container-menu-social-lingua').style.animationName = 'none';
 
 }
@@ -63,8 +63,6 @@ function abrefechaMenu(){
 		line3.style.transition = '0.5s';
 		
 		containerMenu.style.zIndex = '2';
-		containerMenu.style.right = '0px';
-		containerMenu.style.left = 'unset';
 		containerMenu.style.top = '13px';
 		containerMenu.style.position = 'absolute';
 		

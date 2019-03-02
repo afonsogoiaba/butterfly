@@ -201,6 +201,7 @@
 	.white{
 		background: var(--branco);
 		transition: 0.3s;
+		overflow: unset;
 	}
 
 	.white .logo{

@@ -14,9 +14,9 @@ body{
 	--metade-padding: 0.5rem;
 	--padding-inteiro: 1rem;
 	--font-texto: 0.9rem;
-	--font-primary-title: 1.3rem;
+	--font-primary-title: 1.1rem;
 	--font-meio-termo: 1.3rem;
-	--font-secondary-title: 1.1rem;
+	--font-secondary-title: 1.2rem;
 	--font-normal: 1rem;
 	--menu-font-mobile: 1.1rem;
 	--texto-home: 1.8rem;
@@ -33,6 +33,7 @@ header{
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	overflow-y: scroll;
 }
 
 .menu p{
@@ -54,12 +55,11 @@ header{
 	color: var(--branco);	
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	margin-left: 30px;
+	justify-content: flex-start;
 }
 
 .logo img{
-	width: 100px;
+	width: 75px;
 	position: relative;
 	top: -300px;
 	animation: imagem-slide 1s;
@@ -79,7 +79,7 @@ header{
 
 .logo span{
 	font-size: var(--font-texto);
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 	text-transform: uppercase;
 	opacity: 0;
 
@@ -93,7 +93,7 @@ header{
 	padding: var(--padding-inteiro);
 	cursor: pointer;
 	position: relative;
-	top: 10px;
+	top: 20px;
 }
 
 .container-menu .line-1,
