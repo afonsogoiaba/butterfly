@@ -92,8 +92,10 @@ header{
 .container-menu{
 	padding: var(--padding-inteiro);
 	cursor: pointer;
-	position: relative;
+	position: fixed;
+	z-index: 2;
 	top: 20px;
+	right: 10px;
 }
 
 .container-menu .line-1,
@@ -297,6 +299,69 @@ nav a{
 	background-size: cover;
 }
 
-.clean-master{
-	padding: 4rem;
+.clear{
+	padding: 1rem;
 }
+
+.clean-master{
+	padding: 3rem;
+}
+
+.text-apresentation{
+	padding: var(--metade-padding);
+	border-bottom: solid 1px var(--color-1);
+	background: var(--color-1);
+
+}
+
+.text-apresentation h3{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: var(--font-primary-title);
+	padding: var(--metade-padding);
+}
+
+.text-apresentation p{
+	font-size: var(--font-texto);
+	width: 95%;
+	margin: 0 auto;
+}
+
+.container-work{
+	width: 95%;
+	background: rgba(255,255,255,0.55);
+	box-shadow: 0px 3px 30px rgba(0,0,0,0.5);
+	margin: 0 auto;
+}
+
+.container-work a{
+	text-decoration: none;
+	color: var(--preto);
+}
+
+.image-work img {
+	width: 100%;
+}
+
+.texto-work{
+	padding: 10px 20px;
+}
+
+.texto-work h2{
+	font-size: var(--font-normal);
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.texto-work span{
+	color: rgba(0,0,0,0.6);
+	font-size: var(--font-texto);
+}
+
+.texto-work p{
+	margin-top: 10px;
+	text-align: justify;
+	font-size: var(--font-texto);
+}
+
