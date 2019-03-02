@@ -23,6 +23,7 @@ body{
 	--preto: rgb(0,0,0);
 	--branco: rgb(255,255,255);
 	--color-1: #1ed8d5;
+	--amarelo: #ffff11;
 }
 
 body{
@@ -34,6 +35,11 @@ header{
 	width: 100%;
 	z-index: 1;
 	overflow-y: scroll;
+	background: var(--preto);
+}
+
+header a{
+	text-decoration: none;
 }
 
 .menu p{
@@ -51,7 +57,7 @@ header{
 
 .logo{
 	text-align: center;
-	padding: var(--padding-inteiro);
+	padding: var(--metade-padding);
 	color: var(--branco);	
 	display: flex;
 	align-items: center;
@@ -94,7 +100,7 @@ header{
 	cursor: pointer;
 	position: fixed;
 	z-index: 2;
-	top: 20px;
+	top: 10px;
 	right: 10px;
 }
 
@@ -340,6 +346,35 @@ nav a{
 	color: var(--preto);
 }
 
+.container-spec{
+	display: flex;
+	justify-content: space-between;
+}
+
+.star{
+	display: flex;
+	align-items: center;
+	background: var(--color-1);
+	padding: 0px 5px;
+}
+
+.star span{
+	color: var(--barnco);
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 0.7rem;
+}
+
+.star img{
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+}
+
+.externo{
+	background: var(--amarelo);
+}
+
 .image-work img {
 	width: 100%;
 }
@@ -349,14 +384,14 @@ nav a{
 }
 
 .texto-work h2{
-	font-size: var(--font-normal);
+	font-size: var(--font-texto);
 	font-weight: 900;
 	text-transform: uppercase;
 }
 
-.texto-work span{
-	color: rgba(0,0,0,0.6);
-	font-size: var(--font-texto);
+.text-spec span{
+	color: rgba(0,0,0,0.5);
+	font-size: var(--font-texto)
 }
 
 .texto-work p{

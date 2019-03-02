@@ -33,7 +33,7 @@ function start(){
 	line3.style.bottom = '0px';
 
 	containerMenu.style.right = '10px';
-	containerMenu.style.top = '20px';
+	containerMenu.style.top = '10px';
 	containerMenu.style.position = 'fixed';
 
 	header.style.height = 'unset';
