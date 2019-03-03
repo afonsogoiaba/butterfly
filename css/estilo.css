@@ -353,26 +353,30 @@ nav a{
 .container-spec{
 	display: flex;
 	justify-content: space-between;
+	padding: var(--metade-padding);
 }
 
 .star{
 	display: flex;
 	align-items: center;
 	background: var(--color-1);
-	padding: 0px 3px;
+	border-radius: 4px;
+	padding: 0px 5px;
 }
 
 .star span{
 	color: var(--barnco);
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
+	text-align: center;
 }
 
 .star img{
 	width: 14px;
 	height: 14px;
-	margin-right: 5px;
+	margin-bottom: 1px;
+	margin-right: 3px;
 }
 
 .externo{
@@ -395,7 +399,8 @@ nav a{
 
 .text-spec span{
 	color: rgba(0,0,0,0.5);
-	font-size: var(--font-texto)
+	font-size: var(--font-texto);
+	font-style: italic;
 }
 
 .texto-work p{
