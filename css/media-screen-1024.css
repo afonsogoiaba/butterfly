@@ -8,6 +8,7 @@
 		transition: 0.5s;
 		height: unset;
 		overflow-y: visible;
+		animation: none;
 	}
 
 	.logo{
@@ -164,7 +165,7 @@
 	}
 
 	.content{
-		width: 1038px;
+		width: 1170px;
 		margin: 0 auto;
 	}
 
@@ -217,5 +218,27 @@
 	.white .container-menu-social-lingua{
 		opacity: 0;
 		transition: 0.3s;
+	}
+
+	.container-work{
+		width: 100%;
+	}
+
+	.text-apresentation h3{
+		font-size: 1.6rem;
+	}
+
+	.text-apresentation p{
+		font-size: 1.2rem;
+		width: 50%;
+		padding: var(--metade-padding);
+	}
+
+	.texto-work h2{
+		font-size: var(--font-meio-termo);
+	}
+
+	.container-work p{
+		font-size: var(--font-primary-title);
 	}
 }
