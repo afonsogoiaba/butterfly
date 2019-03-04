@@ -58,31 +58,76 @@ $(function() {
       en: "Start",
       pt: "Iniciar"
     },
-    step4: {
-      en: "initialize the plugin and translate the entire page body",
-      pt: "iniciar o plugin e traduzir o body da página"
+
+    "Finalized in 22/06/2017": {
+      en: "Finalized in 22/06/2017",
+      pt: "Finalizado em 22/06/2017"
     },
-    step5: {
-      en: "change to another language",
-      pt: "mudar para outro idioma"
+
+    "Academy work": {
+      en: "Academy work",
+      pt: "Trabalho acadêmico"
     },
-    step6: {
-      en: "try it",
-      pt: "experimentar"
+
+    "flower stylist": {
+      en: "flower stylist",
+      pt: "Estilista de flores"
     },
-    "translate to English": {
-      pt: "traduzir para Inglês"
+
+    "Finalized in 28/06/2017": {
+      en: "Finalized in 28/06/2017",
+      pt: "Finalizado em 28/06/2017"
     },
-    "translate to Portuguese": {
-      pt: "traduzir para Português"
+
+    "Finalized in 03/10/2017": {
+      en: "Finalized in 03/10/2017",
+      pt: "Finalizado em 03/10/2017"
     },
-    string_translate_key: {
-      en: "After you initialize the component you can translate a string",
-      pt: "Depois do componente iniciado, pode-se traduzir uma string"
+
+    "Yago and Aldair": {
+      en: "Yago and Aldair",
+      pt: "Yago e Aldair"
     },
-    "Download translate.js": {
-      pt: "Descarregar translate.js"
-    }
+
+    "Finalized in 18/11/2017": {
+      en: "Finalized in 18/11/2017",
+      pt: "Finalizado em 18/11/2017"
+    },
+
+    "External work": {
+      en: "External work",
+      pt: "Trabalho externo"
+    },
+
+    "Portfolio of stars": {
+      en: "Portfolio of stars",
+      pt: "Portfólio das estrelas"
+    },
+
+    "Finalized in 04/12/2017": {
+      en: "Finalized in 04/12/2017",
+      pt: "Finalizado em 04/12/2017"
+    },
+
+    "Portwiki Platform": {
+      en: "Portwiki Platform",
+      pt: "Plataforma Portwiki"
+    },
+
+    "Finalized in 01/12/2018": {
+      en: "Finalized in 01/12/2018",
+      pt: "Finalizado em 01/12/2018"
+    },
+
+    "In progress": {
+      en: "In progress",
+      pt: "Em Progresso"
+    },
+
+    
+
+
+
   };
   var _t = $('body').translate({lang: "en", t: t});
   var str = _t.g("translate");
