@@ -109,4 +109,30 @@
 	.star span{
 		font-size: 0.7rem;
 	}
+
+	.texto-autor img{
+		width: 200px;
+		height: 200px;
+	}
+
+	.texto-autor h2{
+		font-size: var(--font-meio-termo);
+	}
+
+	.texto-autor span{
+		font-size: var(--font-normal);
+	}
+
+	.texto-autor p{
+		font-size: var(--font-normal);
+	}
+
+	.speclist{
+		display: flex;
+	}
+
+	.container-speclist{
+		width: 40%;
+		margin: 0 auto;
+	}
 }

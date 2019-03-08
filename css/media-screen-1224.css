@@ -273,4 +273,49 @@
 		width: 100%;
 		font-size: var(--font-primary-title);
 	}
+
+	.container-autor{
+		display: flex;
+	}
+
+	.texto-autor{
+		width: 80%;
+		justify-content: center;
+		padding: var(--padding-inteiro);
+	}
+
+	.texto-autor p{
+		width: 80%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		font-size: var(--font-primary-title);
+	}
+
+	.speclist{
+		width: 80%;
+		background-image: linear-gradient(to top left, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
+	}
+
+	.container-speclist{
+		margin: 20px;
+	}
+
+
+
+	/*
+
+	.container-speclist{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.container-speclist h3{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.container-speclist ul li{
+		width: 80%;
+		margin: 0 auto;
+	}*/
 }
