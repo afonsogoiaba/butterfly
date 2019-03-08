@@ -414,7 +414,6 @@ nav a{
 	flex-direction: column;
 	align-items: center;
 	background-image: linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
-	padding: var(--metade-padding);
 }
 
 .texto-autor img{
@@ -422,8 +421,6 @@ nav a{
 	height: 170px;
 	border-radius: 50%;
 	padding: var(--metade-padding);
-	margin-bottom: 10px;
-	margin-top: 10px;
 }
 
 .texto-autor h2{
@@ -444,17 +441,13 @@ nav a{
 .texto-autor p{
 	text-align: justify;
 	width: 90%;
-	margin: 20px auto;
+	margin: 10px auto;
 	font-size: var(--font-texto);
 }
 
-.border-division{
-	border-bottom: solid 1px #000;
-	width: 100%;
-}
-
 .speclist{
-	padding: var(--metade-padding);
+	padding-top: var(--padding-inteiro);
+	padding-bottom: var(--padding-inteiro);
 	background-image: linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
 }
 
