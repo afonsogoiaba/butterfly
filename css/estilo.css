@@ -409,3 +409,120 @@ nav a{
 	font-size: var(--font-texto);
 }
 
+.texto-autor{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
+	padding: var(--metade-padding);
+}
+
+.texto-autor img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	padding: var(--metade-padding);
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.texto-autor h2{
+	text-transform: uppercase;
+	font-size: var(--font-primary-title);
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.texto-autor span{
+	margin-top: 5px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+
+.texto-autor p{
+	text-align: justify;
+	width: 90%;
+	margin: 20px auto;
+	font-size: var(--font-texto);
+}
+
+.border-division{
+	border-bottom: solid 1px #000;
+	width: 100%;
+}
+
+.speclist{
+	padding: var(--metade-padding);
+	background-image: linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
+}
+
+.container-speclist{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container-speclist h3{
+	padding: var(--metade-padding);
+	background: var(--branco);
+	text-transform: uppercase;
+	font-size: var(--font-texto);
+}
+
+.container-speclist ul{
+	list-style: none;
+	margin-top: 10px;
+}
+
+.container-speclist ul li{
+	padding-top: var(--metade-padding);
+	padding-bottom: var(--metade-padding);
+}
+
+.container-speclist ul li span{
+	text-transform: uppercase;
+	font-size: var(--font-texto);
+	font-weight: 900;
+}
+.progress{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.progress-bar{
+	height: 5px;
+	padding: var(--metade-padding);
+	width: 85%;
+}
+
+.html{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 70%);
+}
+
+.css{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 65%, rgba(255,255,255,0.9) 35%);
+}
+
+.js{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);	
+}
+
+.jquery{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 35%, rgba(255,255,255,0.9) 35%);
+}
+
+.animate{
+	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 20%, rgba(255,255,255,0.9) 20%);
+}
+
+.node{
+	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
+}
+
+.sql{
+	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
+}
+

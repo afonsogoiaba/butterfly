@@ -33,6 +33,15 @@ $(function() {
       pt: "Contato"
     },
 
+    "Brazil - Portuguese": {
+      en: "Brazil - Portuguese",
+      pt: "Brasil - Português"
+    },
+
+    "United States - English": {
+      en: "United States - English",
+      pt: "Estados Unidos - Inglês"
+    },
 
     "About": {
       en: "About",

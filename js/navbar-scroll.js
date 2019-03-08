@@ -13,7 +13,16 @@ $(window).on('scroll', function(){
 });
 
 var $doc = $('html, body');
-$('a').click(function() {
+$('nav a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+
+
+var $doc = $('html, body');
+$('#home a').click(function() {
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 1000);

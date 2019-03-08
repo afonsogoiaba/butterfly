@@ -95,3 +95,10 @@ document.querySelectorAll("nav a").forEach(function(item){
   	start();
   }  
 });
+
+document.querySelectorAll(".container-menu-social-lingua span").forEach(function(span){
+
+  span.onclick = function(){
+  	start();
+  }  
+});
