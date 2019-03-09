@@ -131,6 +131,10 @@
 		display: flex;
 	}
 
+	.speclist .clear{
+		display: none;
+	}
+
 	.container-speclist{
 		width: 40%;
 		margin: 0 auto;

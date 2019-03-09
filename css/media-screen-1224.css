@@ -279,7 +279,7 @@
 	}
 
 	.texto-autor{
-		width: 80%;
+		width: 70%;
 		justify-content: center;
 		padding: var(--padding-inteiro);
 	}
@@ -293,29 +293,11 @@
 
 	.speclist{
 		width: 80%;
+		align-items: center;
 		background-image: linear-gradient(to top left, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
 	}
 
 	.container-speclist{
 		margin: 20px;
 	}
-
-
-
-	/*
-
-	.container-speclist{
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.container-speclist h3{
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	.container-speclist ul li{
-		width: 80%;
-		margin: 0 auto;
-	}*/
 }

@@ -317,6 +317,10 @@ nav a{
 	padding: 3rem;
 }
 
+.met-padding{
+	padding: 0.5rem;
+}
+
 .text-apresentation{
 	padding: var(--metade-padding);
 	border-bottom: solid 1px var(--color-1);
@@ -481,14 +485,14 @@ nav a{
 .progress{
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
 .progress-bar{
 	height: 5px;
 	padding: var(--metade-padding);
-	width: 85%;
+	width: 90%;
 }
 
 .html{
@@ -519,3 +523,10 @@ nav a{
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
 }
 
+.illustrator{
+	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 60%, rgba(255,255,255,0.9) 60%);	
+}
+
+.photoshop{
+	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
+}
