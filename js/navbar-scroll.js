@@ -20,9 +20,14 @@ $('nav a').click(function() {
     return false;
 });
 
-
-var $doc = $('html, body');
 $('#home a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+
+$('header #logo').click(function() {
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 1000);
