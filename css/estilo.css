@@ -530,3 +530,91 @@ nav a{
 .photoshop{
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 }
+
+.loopsoft-development{
+
+	background-image: linear-gradient(to top right, rgba(150, 30, 216,0.8) 50%, rgba(150, 30, 216,0.9) 50%);	
+
+}
+
+.loopsoft-development h3,
+.contact-loop h4{
+	padding: var(--metade-padding);
+	padding-top: var(--padding-inteiro);
+	font-size: var(--font-secondary-title);
+	font-weight: 700;
+	width: 95%;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.texto-loop{
+	width: 95%;
+	margin: 10px auto;
+	padding: var(--metade-padding);
+}
+
+.texto-loop a{
+	text-decoration: none;
+	color: var(--preto);
+	font-weight: 900;
+}
+
+.texto-loop p{
+	font-size: var(--font-texto);
+	text-align: justify;
+}
+
+.contact-loop{
+	margin-top: 20px;
+	padding: 0;
+}
+
+.contact-loop h4{
+	font-size: var(--font-normal);
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.midias-loop a{
+	text-decoration: none;
+	color: var(--preto);
+	font-weight: 700;
+}
+
+.loop-midia{
+	padding: var(--metade-padding);
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.loop-midia img{
+	width: 30px;
+}
+
+.loop-midia span{
+	margin-left: 10px;
+}
+
+.github{
+	color: var(--branco);
+	background: var(--preto);
+}
+
+.gmail{
+	color: var(--branco);
+	background: #B23121;
+}
+
+.whatsapp{
+	color: var(--branco);
+	background: #25D366;
+}
+
+
+
+
+
