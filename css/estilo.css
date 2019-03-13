@@ -531,10 +531,16 @@ nav a{
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 }
 
+#loopsoft{
+
+	background: url(../img/infinity.png) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
 .loopsoft-development{
-
-	background-image: linear-gradient(to top right, rgba(150, 30, 216,0.8) 50%, rgba(150, 30, 216,0.9) 50%);	
-
+	box-shadow: 0px 3px 30px #000;
+	background: rgba(255,255,255,0.88);
 }
 
 .loopsoft-development h3,
@@ -551,6 +557,7 @@ nav a{
 .texto-loop{
 	width: 95%;
 	margin: 10px auto;
+	margin-bottom: 0;
 	padding: var(--metade-padding);
 }
 
