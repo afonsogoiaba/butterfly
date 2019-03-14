@@ -139,4 +139,25 @@
 		width: 40%;
 		margin: 0 auto;
 	}
+
+	#loopsoft{
+		background: unset;
+	}
+
+	.loopsoft-development{
+		width: 100%;
+		border-radius: unset;
+		box-shadow: unset;
+	}
+
+	.loopsoft-development h3{
+		font-size: var(--font-primary-title);
+		text-align: left;
+	}
+
+	.texto-loop p{
+		font-size: var(--font-normal);
+		width: 95%;
+		margin: 0 auto;
+	}
 }
