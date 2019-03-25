@@ -537,104 +537,6 @@ nav a{
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 }
 
-#loopsoft{
-
-	background: url(../img/infinity.png) no-repeat center center fixed;
-	background-size: cover;
-
-}
-
-.loopsoft-development{
-	width: 95%;
-	margin: 0 auto;
-	border-radius: var(--radius8);
-	box-shadow: 0px 3px 30px #000;
-	background: rgba(255,255,255,0.9);
-}
-
-.loopsoft-development h3,
-.contact-loop h4{
-	padding: var(--metade-padding);
-	padding-top: var(--padding-inteiro);
-	font-size: var(--font-texto);
-	font-weight: 900;
-	width: 95%;
-	margin: 0 auto;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.texto-loop{
-	width: 95%;
-	margin: 10px auto;
-	margin-bottom: 0;
-	padding: var(--metade-padding);
-}
-
-.texto-loop a{
-	text-decoration: none;
-	color: var(--preto);
-	font-weight: 900;
-}
-
-.texto-loop p{
-	font-size: var(--font-texto);
-	text-align: justify;
-}
-
-.contact-loop{
-	padding: var(--metade-padding);
-}
-
-.contact-loop h4{
-	font-size: var(--font-texto);
-	padding: var(--metade-padding);
-	text-align: left;
-	font-weight: 700;
-	width: 100%;
-	margin: 0;
-	margin-bottom: 10px;
-}
-
-.midias-loop a{
-	text-decoration: none;
-	color: var(--preto);
-	font-weight: 700;
-}
-
-.loop-midia{
-	padding: var(--metade-padding);
-	display: flex;
-	align-items: center;
-	border-radius: var(--radius5);
-	width: 95%;
-	margin: 0 auto;
-	margin-bottom: 5px;
-}
-
-.loop-midia img{
-	width: 30px;
-}
-
-.loop-midia span{
-	margin-left: 10px;
-}
-
-.github{
-	color: var(--branco);
-	background: var(--preto);
-}
-
-.gmail{
-	color: var(--branco);
-	background: #B23121;
-}
-
-.whatsapp{
-	color: var(--branco);
-	background: #12aa4b;
-}
-
 .footer1{
 	background: rgba(0,0,0,0.9);
 	padding: var(--padding-inteiro);
@@ -670,7 +572,9 @@ nav a{
 
 .container-footer img{
 	width: 140px;
+	filter: grayscale(80%);
 }
+
 
 .container-footer div{
 	color: var(--branco);
@@ -678,11 +582,11 @@ nav a{
 
 .container-footer h1{
 	font-size: var(--font-primary-title);
-	font-weight: 900;
+	font-weight: 700;
 }
 
 footer .clear{
-	width: 80%;
+	width: 60%;
 	padding: 0;
 	height: 1px;
 	margin: 10px auto;
@@ -692,7 +596,7 @@ footer .clear{
 .footer2{
 	text-align: center;
 	background: var(--preto);
-	padding: var(--padding-inteiro);
+	padding: 1.5rem;
 }
 
 .footer2 p{
