@@ -160,22 +160,4 @@
 		width: 95%;
 		margin: 0 auto;
 	}
-
-	.footer1{
-		display: flex;
-		justify-content: space-around;
-	}
-
-	.footer1 .clear{
-		display: none;
-	}
-
-	.div-center{
-		margin: auto 0;
-	}
-
-	.div-center img{
-		width: 170px;
-	}
-
 }
