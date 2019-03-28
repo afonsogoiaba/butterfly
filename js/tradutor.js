@@ -143,14 +143,19 @@ $(function() {
       pt: "Desenvolvimento Back-end"
     },
 
-    "send you message!":{
-      en: "send you message!",
+    "send your message!":{
+      en: "send your message!",
       pt: "envie sua mensagem!"
     },
 
     "Name: ":{
       en: "Name: ",
       pt: "Nome: "
+    },
+
+    "Phone: ":{
+      en: "Phone: ",
+      pt: "Telefone: "
     },
 
     "Subject matter: ":{

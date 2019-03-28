@@ -286,4 +286,78 @@
 	.container-speclist{
 		margin: 20px;
 	}
+
+	.container-two-divs{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.home-contact{
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+	.home-contact h3{
+		font-size: var(--font-secondary-title);
+	}
+
+	.home-contact p{
+		font-size: var(--font-normal);
+	}
+
+	.formulario-php{
+		width: 35%;
+		margin: 0;
+	}
+
+	input[type="submit"]{
+		padding: 0.8rem;
+		font-size: var(--font-primary-title);
+		cursor: pointer;
+	}
+
+	.motivation{
+		margin-top: 10px;
+		width: 40%;
+		margin: 0;
+	}
+
+	.motivation h4{
+		font-size: var(--font-secondary-title);
+		margin-left: 10px;
+	}
+
+	.motivation p{
+		font-size: var(--font-normal);
+	}
+
+	.motivation span{
+		display: block;
+		font-size: var(--font-normal);
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.motivation img{
+		filter: brightness(50%) grayscale(100%) contrast(120%);
+		width: 200px;
+	}
+
+	footer{
+		background: var(--preto);
+	}
+
+	.footer{
+		background: unset;
+		width: 92%;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+
+	.footer p,
+	.footer span{
+		font-size: var(--font-normal); 	
+	}
 }

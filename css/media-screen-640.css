@@ -125,24 +125,48 @@
 		margin: 0 auto;
 	}
 
-	#loopsoft{
-		background: unset;
+	.home-contact{
+		width: 200px;
 	}
 
-	.loopsoft-development{
+	.home-contact h3,
+	.home-contact p{
+		margin-left: 10px;
+	}	
+	
+	.two-input{
 		width: 100%;
-		border-radius: unset;
-		box-shadow: unset;
+		display: flex;
 	}
 
-	.loopsoft-development h3{
-		font-size: var(--font-primary-title);
-		text-align: left;
+	.two-input .container-form{
+		width: 100%;
 	}
 
-	.texto-loop p{
-		font-size: var(--font-normal);
-		width: 95%;
+	.container2{
+		width: 80% !important;
+	}
+
+	.motivation{
+		width: 92%;
+		border-radius: 4px;
 		margin: 0 auto;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.motivation p{
+		text-align: left;
+		width: 95%;
+		padding: var(--metade-padding);
+	}
+
+	.motivation img{
+		margin-top: 0;
+		width: 170px;
+	}
+
+	.footer p{
+		text-align: left;
 	}
 }

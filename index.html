@@ -329,9 +329,9 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 						</div>
 					</div>
-					<div class="clean-master-2"></div>
-					
 				</div>
+
+					<div class="clean-master-2"></div>
 			</section>
 
 			<section class="autor" id="about">
@@ -439,36 +439,58 @@
 
 			<section class="contato" id="contact">
 				<div class="clean-master"></div>
+				<div class="container-two-divs">
 
-				<div class="home-contact">
-					<h3 class="trn">Contact</h3>
-					<p class="trn">send you message!</p>
+
+					<form class="formulario-php" method="POST" action="./send-email.php">
+						<div class="home-contact">
+							<h3 class="trn">Contact</h3>
+							<p class="trn">send your message!</p>
+						</div>
+						<div class="two-input">
+							<div class="container-form">
+								<label for="nome" class="trn">Name: </label>
+								<input type="text" name="nome">
+							</div>
+
+							<div class="container-form container2">
+								<label for="telefone" class="trn">Phone: </label>
+								<input type="tell" name="telefone">
+							</div>
+						</div>
+
+						<div class="container-form">
+							<label for="email" class="trn">Email: </label>
+							<input type="email" name="email">
+						</div>
+
+						<div class="container-form">
+							<label for="assunto" class="trn">Subject matter: </label>
+							<input type="text" name="assunto">
+						</div>
+
+						<div class="container-form">
+							<label for="mensagem" class="trn">Menssagem: </label>
+							<textarea name="menssagem"></textarea>
+						</div>
+
+						<input type="submit" name="enviar" value="Send email" class="trn">
+
+					</form>
+
+					<div class="clear"></div>
+
+					<div class="motivation">
+						<div>
+							<h4>The Evolution</h4>
+							<p>"A evolução vem da alma, do lugar onde poucos conseguem explorar em si mesmos. Enfrente a estagnação, a vontade de permanecer na zona de conforto e reaja. O primeiro passo para evoluir é buscar a melhor parte de si e melhora-la ao máximo diversas e diversas vezes. Enchergue que o caminho para o crescimento requer sacrifícios que vão muito além do esforço físico e mental. Transceda."</p>
+							<span>~ Afonso Barbosa</span>
+						</div>
+						
+					<img src="img/logo.png">
+					</div>
 				</div>
 
-				<form class="formulario-php" method="POST" action="./send-email.php">
-					<div class="container-form">
-						<label for="nome" class="trn">Name: </label>
-						<input type="text" name="nome">
-					</div>
-
-					<div class="container-form">
-						<label for="email" class="trn">Email: </label>
-						<input type="email" name="email">
-					</div>
-
-					<div class="container-form">
-						<label for="assunto" class="trn">Subject matter: </label>
-						<input type="text" name="assunto">
-					</div>
-
-					<div class="container-form">
-						<label for="mensagem" class="trn">Menssagem: </label>
-						<textarea name="menssagem"></textarea>
-					</div>
-
-					<input type="submit" name="enviar" value="Send email" class="trn">
-
-				</form>
 
 				<div class="clear"></div>
 			</section>
@@ -476,7 +498,8 @@
 
 		<footer>
 			<div class="footer">
-				<p>&copy; <b>The Evolution - 2019 | </b> Todos os direitos reservados.</p>
+				<p>Copyright &copy; <b>The Evolution - 2019. | </b>Todos os direitos reservados.</p>
+				<span>Desenvolvido por <a href="https://github.com/afonsogoiaba" target="_blank">Afonso Barbosa.</a></span>
 			</div>
 		</footer>
 		<script src="js/menu.js"></script>
