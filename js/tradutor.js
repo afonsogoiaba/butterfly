@@ -133,10 +133,40 @@ $(function() {
       pt: "Em Progresso"
     },
 
-    
+    "Development Front-end": {
+      en: "Development Front-end",
+      pt: "Desenvolvimento Front-end"
+    },
 
+    "Development Back-end": {
+      en: "Development Back-end",
+      pt: "Desenvolvimento Back-end"
+    },
 
+    "send you message!":{
+      en: "send you message!",
+      pt: "envie sua mensagem!"
+    },
 
+    "Name: ":{
+      en: "Name: ",
+      pt: "Nome: "
+    },
+
+    "Subject matter: ":{
+      en: "Subject matter: ",
+      pt: "Assunto: "
+    },
+
+    "Message: ":{
+      en: "Message: ",
+      pt: "Menssagem: "
+    },
+
+    "Send email": {
+      en: "Send email",
+      pt: "Enviar email"
+    },
   };
   var _t = $('body').translate({lang: "en", t: t});
   var str = _t.g("translate");

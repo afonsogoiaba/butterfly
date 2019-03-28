@@ -247,20 +247,6 @@
 		margin-left: 0;
 	}
 
-	.text-apresentation{
-		display: none;
-	}
-
-	.text-apresentation h3{
-		font-size: 1.6rem;
-	}
-
-	.text-apresentation p{
-		font-size: 1.2rem;
-		width: 80%;
-		padding: var(--metade-padding);
-	}
-
 	.texto-work{
 		width: 100%;
 	}

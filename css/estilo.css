@@ -328,27 +328,6 @@ nav a{
 	padding: 0.5rem;
 }
 
-.text-apresentation{
-	padding: var(--metade-padding);
-	border-bottom: solid 1px var(--color-1);
-	background: var(--color-1);
-
-}
-
-.text-apresentation h3{
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: var(--font-primary-title);
-	padding: var(--metade-padding);
-}
-
-.text-apresentation p{
-	font-size: var(--font-texto);
-	width: 95%;
-	margin: 0 auto;
-}
-
 .container-work{
 	width: 90%;
 	background: rgba(255,255,255,0.8);
@@ -540,6 +519,80 @@ nav a{
 .photoshop{
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 }
+
+.home-contact{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: var(--font-texto);
+	padding: var(--padding-inteiro);
+	width: 50%;
+	background: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.9);
+	border-radius: 4px;
+}
+
+.home-contact p{
+	font-weight: 400;
+	font-size: var(--font-normal);
+	text-transform: none;
+}
+
+.formulario-php{
+	width: 95%;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+.container-form{
+	padding: var(--metade-padding);
+}
+
+.container-form label{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.container-form input{
+	padding: 8px;
+	border-radius: 4px;
+	border: solid 1px rgba(0,0,0,0.4);
+}
+
+::placeholder{
+	margin-left: 20px;
+}
+
+.container-form input,
+.container-form textarea{
+	width: 100%;
+	outline: none;
+}
+
+.container-form textarea{
+	min-height: 80px;
+	border-radius: 4px;
+}
+
+input[type="submit"]{
+	background: unset;
+	border: unset;
+	outline: none;
+	background: var(--color-1);
+	font-size: var(--font-texto);
+	font-weight: 700;
+	padding: 0.7rem;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
 
 .footer{
 	text-align: center;

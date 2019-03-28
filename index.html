@@ -126,14 +126,6 @@
 			<section id="portfolio" class="portfolio">
 				<div class="clean-master"></div>
 
-				<!-- <div class="text-apresentation">
-					<h3>Welcome to portfolio</h3>
-					<p>These jobs are listed in chronological order, a way to represent my evolution as a web designer and website builder.</p>
-				</div>
-
-				<div class="clear"></div> -->
-
-
 				<div class="works content">
 					<div class="container-work">
 
@@ -355,7 +347,7 @@
 
 					<div class="speclist">
 						<div class="container-speclist">
-							<h3>Desenvolvimento Front-end</h3>
+							<h3 class="trn">Development Front-end</h3>
 							<ul>
 								<li>
 									<span>HTML 5</span>
@@ -402,7 +394,7 @@
 						<div class="clear"></div>
 
 						<div class="container-speclist">
-							<h3>Desenvolvimento Back-end</h3>
+							<h3 class="trn">Development Back-end</h3>
 							<ul>
 								<li>
 									<span>Node.JS</span>
@@ -446,7 +438,39 @@
 			</section>
 
 			<section class="contato" id="contact">
-				<h3 class="trn">Contact</h3>
+				<div class="clean-master"></div>
+
+				<div class="home-contact">
+					<h3 class="trn">Contact</h3>
+					<p class="trn">send you message!</p>
+				</div>
+
+				<form class="formulario-php" method="POST" action="./send-email.php">
+					<div class="container-form">
+						<label for="nome" class="trn">Name: </label>
+						<input type="text" name="nome">
+					</div>
+
+					<div class="container-form">
+						<label for="email" class="trn">Email: </label>
+						<input type="email" name="email">
+					</div>
+
+					<div class="container-form">
+						<label for="assunto" class="trn">Subject matter: </label>
+						<input type="text" name="assunto">
+					</div>
+
+					<div class="container-form">
+						<label for="mensagem" class="trn">Menssagem: </label>
+						<textarea name="menssagem"></textarea>
+					</div>
+
+					<input type="submit" name="enviar" value="Send email" class="trn">
+
+				</form>
+
+				<div class="clear"></div>
 			</section>
 		</main>
 

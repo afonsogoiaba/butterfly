@@ -46,21 +46,6 @@
 		background-size: unset;
 	}
 
-	.text-apresentation{
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.text-apresentation h3{
-		margin-bottom: 0;
-		font-size: var(--font-meio-termo);
-	}
-
-	.text-apresentation p{
-		font-size: var(--font-secondary-title);
-		width: 100%;
-		margin: 0;
-	}
 	.start{
 		margin-top: 40px;
 	}
