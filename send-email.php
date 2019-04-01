@@ -19,21 +19,20 @@ if(isset($_POST['nome']) && !empty($_POST['nome'])
 								 ."Telefone: ".$telefone. "\r\n"
 								 ."menssagem: ".$menssagem; 
 
-	$header = 'From:port.butterfly@theevolution.com'."\r\n"
-						."Replay-To:".$email."\r\n"
-						."X=Mailer:PHP/".phpversion();
+	// $header = 'From:port.butterfly@theevolution.com'."\r\n"
+	// 					."Replay-To:".$email."\r\n"
+	// 					."X=Mailer:PHP/".phpversion();
 
 
-	if(mail($to, $body, $header)){
-		echo "email enviado com sucesso";
+	if(mail($to, $assunto_postal, $body)){
+		echo "<Script>location.href='thanks.html';</script>";
 	}
 	else{
 		echo "falha no envio";
 	}
 }
 else{
-	echo "<script>alert('preencha os campos corretamente');</script>";
+	echo "<script>alert('preencha os campos corretamente'); location.href='index.html#contact';</script>";
 }
-
 
  ?>

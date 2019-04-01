@@ -172,6 +172,11 @@ $(function() {
       en: "Send email",
       pt: "Enviar email"
     },
+
+    "The evolution comes from the soul, a place in itself where few can explore. Face the stagnancy, the will to remain in the comfort zone and react. The first step to evolve is to seek the best part of yourself and improves to the maximum, several times. Know that the path to growth requires sacrifice that goes far beyond the physical and mental effort. Transcend.":{
+      en: "The evolution comes from the soul, a place in itself where few can explore. Face the stagnancy, the will to remain in the comfort zone and react. The first step to evolve is to seek the best part of yourself and improves to the maximum, several times. Know that the path to growth requires sacrifice that goes far beyond the physical and mental effort. Transcend.",
+      pt: "A evolução vem da alma, do lugar onde poucos conseguem explorar em si mesmo. Enfrente a estagnação, a vontade de permanecer na zona de conforto e reaja. O primeiro passo para evoluir é buscar a melhor parte de si e melhora-la ao máximo, diversas e diversas vezes. Enxergue que o caminho para o crescimento requer sacrifícios que vão muito além do esforço físico e mental. Transcenda."
+    }
   };
   var _t = $('body').translate({lang: "en", t: t});
   var str = _t.g("translate");

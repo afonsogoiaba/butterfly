@@ -1,0 +1,107 @@
+.agradecimento{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url(../img/fundo-thank.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.container-agrad{
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0px 3px 30px rgba(0,0,0,1);
+	padding: var(--metade-padding);
+	background: rgba(255,255,255,0.9);
+	border-radius: 4px;
+}
+
+.container-agrad img{
+	width: 90px;
+	position: absolute;
+	left: -10px;
+	top: -72px;
+}
+
+.container-agrad h2,
+.container-agrad h3,
+.container-agrad p{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.container-agrad h2{
+	font-size: 1.7rem;
+}
+
+.container-agrad h3{
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.container-agrad p{
+	text-align: justify;
+	margin-bottom: 20px;
+	font-size: var(--font-texto);
+}
+
+.container-agrad a{
+	display: block;
+	color: var(--preto);
+	background: var(--color-1);
+	padding: 0.6rem var(--metade-padding);
+	text-decoration: none;
+	font-weight: 900;
+	width: 32%;
+	margin-left: 10px;
+	text-align: center;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: var(--font-texto);
+	box-shadow: 3px 5px 5px rgba(0,0,0,0.35);
+	margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 640px){
+	.container-agrad{
+		width: 400px;
+	}
+
+	.container-agrad img{
+		width: 110px;
+		top: -88px;
+	}
+
+	.container-agrad a{
+		width: 11	0px;
+	}
+}
+
+@media screen and (min-width: 1224px){
+	.container-agrad{
+		width: 500px;
+	}
+
+	.container-agrad img{
+		width: 130px;
+		top: -105px;
+	}
+
+	.container-agrad h2{
+		font-size: 2rem;
+	}
+
+	.container-agrad h3{
+		font-size: 1.3rem;
+	}
+
+	.container-agrad p{
+		font-size: var(--font-normal);
+	}
+
+	.container-agrad a{
+		width: 120px;	
+	}
+}
