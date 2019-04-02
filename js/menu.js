@@ -40,7 +40,6 @@ function start(){
 	header.style.overflowY = 'visible';
 	document.querySelector('html').style.overflowY = 'scroll';
 	document.querySelector('.container-menu-social-lingua').style.animationName = 'none';
-
 }
 
 function abrefechaMenu(){

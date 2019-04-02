@@ -25,14 +25,22 @@ if(isset($_POST['nome']) && !empty($_POST['nome'])
 
 
 	if(mail($to, $assunto_postal, $body)){
-		echo "<Script>location.href='thanks.html';</script>";
+		echo "<script>
+						location.href='thanks.html';
+					</script>";
 	}
 	else{
-		echo "falha no envio";
+		echo "<script>
+						alert('Não foi possível enviar o seu email. Tente novamente mais tarde.');
+						location.href='index.html#contato';
+					</script>"
 	}
 }
 else{
-	echo "<script>alert('preencha os campos corretamente'); location.href='index.html#contact';</script>";
+	echo "<script>
+					alert('preencha os campos corretamente.');
+					location.href='index.html#contact';
+				</script>";
 }
 
  ?>

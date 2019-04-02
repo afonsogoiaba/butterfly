@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title id="topo_page_title"></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="Butterfly">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content = "#000">
+		<link rel="apple-touch-icon" sizes="192x192" href="img/logo.png">
+		<link rel="icon" type="image/x-icon" sizes="192x192" href="img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/media-screen-640.css">
+		<link rel="stylesheet" type="text/css" href="css/media-screen-1224.css">
+		<link rel="stylesheet" type="text/css" href="css/keyframes.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	</head>
+	<body onload="reloadId(); start();">
+		<header>
+			<a href="#home" id="logo">
+				<div class="logo">
+					<img src="img/logo.png">
+
+					<div>
+						<h1 class="trn">The Evolution</h1>
+						<span class="trn">Portfolio</span>	
+					</div>
+				</div>
+			</a>
+
+			<div class="menu">
+				<p class="trn">menu</p>
+				<div class="container-menu" onclick="abrefechaMenu();">
+					<div class="line-1"></div>
+					<div class="line-2"></div>
+					<div class="line-3"></div>
+				</div>
+				<div class="overlay">
+					<nav>
+						<ul>
+							<li><a href="#home" class="trn btn">Home</a></li>
+							<li><a href="#portfolio" class="trn btn">Portfolio</a></li>
+							<li><a href="federal-institute.html" class="trn btn">Federal Institute</a></li>
+							<li><a href="#about" class="trn btn">About</a></li>
+							<li><a href="#contact" class="noborderbottom trn btn">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="container-projeto">
+
+				<div class="clean-master"></div>
+				<div class="cont-proj">
+
+					<div class="sec-info">	
+						<h2 id="titulo_page"></h2>
+
+						<div class="cont-desc">
+							<p id="descricao_page"></p>
+
+							<div class="star">
+								<img src="img/icons/star.png">
+								<span id="subtitulo_page" class="trn">Academy work</span>
+							</div>
+						</div>
+					</div>
+
+					<div id="imagem_page" class="container-img"></div>
+				</div>
+			</section>
+		</main>
+
+
+
+
+
+		<!-- <footer>
+			<div class="footer">
+				<p>Copyright &copy; <b>The Evolution - 2019. | </b>Todos os direitos reservados.</p>
+				<span>Desenvolvido por <a href="https://github.com/afonsogoiaba" target="_blank">Afonso Barbosa.</a></span>
+			</div>
+		</footer> -->
+		<script src="js/menu.js"></script>
+		<script type="text/javascript" src="js/jquery.translate.js"></script>
+		<script type="text/javascript" src="js/tradutor.js"></script>
+		<script type="text/javascript" src="js/selected-menu.js"></script>
+		<script type="text/javascript" src="js/navbar-scroll.js"></script>
+		<script type="text/javascript" src="js/pagination.js"></script>
+	</body>
+</html>
