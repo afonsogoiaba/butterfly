@@ -15,7 +15,7 @@ function popula(id, inicio, fim){
 	let arrTitulo = ['Adam Gontier Designer'];
 	let arrDescricao = ['Esse projeto foi desenvolvido durante o primeiro semestre de 2017 para obtenção de nota na disciplina de Linguagem de Apresentação e Estruturação de Conteúdos 1.'];
 	let arrSubtitulo = ['Academy work', 'external work'];
-	let arrImagem = ['./img/works/laec1/afonso-port/afonso-port-img-1.PNG', './img/works/laec1/afonso-port/afonso-port-img-2.PNG', './img/works/laec1/afonso-port/afonso-port-img-3.PNG', './img/works/laec1/afonso-port/afonso-port-img-4.PNG'];
+	let arrImagem = ['./img/works/laec1/afonso-port/afonso-port-img-1.PNG', './img/works/laec1/afonso-port/afonso-port-img-2.PNG', './img/works/laec1/afonso-port/afonso-port-img-3.png', './img/works/laec1/afonso-port/afonso-port-img-4.png'];
 
 	topoTitulo.innerHTML = arrTopTitulo[id];
 	titulo.innerHTML = arrTitulo[id];
