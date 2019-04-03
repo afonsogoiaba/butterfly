@@ -41,7 +41,7 @@ function popula(id, inicio, fim, sub){
 									 './img/works/laec1/afonso-port/afonso-port-img-2.PNG',
 									 './img/works/laec1/afonso-port/afonso-port-img-3.png',
 									 './img/works/laec1/afonso-port/afonso-port-img-4.png',
-									 './img/works/laec1/dani-port/dani-port-img-1.png',
+									 './img/works/laec1/dani-port/dani-port-img-1.PNG',
 									 './img/works/laec1/dani-port/dani-port-img-2.png',
 									 './img/works/laec2/afonso-limbo/limbo-img-1.png',
 									 './img/works/laec2/afonso-limbo/limbo-img-2.png',
