@@ -253,6 +253,12 @@
 	
 	.image-work{
 		width: 100%;
+		margin: 0;
+	}
+
+	.image-work img{
+
+		border-radius: 8px 8px 0px 0px;
 	}
 
 	.container-work p{

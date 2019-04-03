@@ -180,6 +180,7 @@ nav a{
 	margin-bottom: 10px;
 	background: var(--preto);
 	text-transform: uppercase;	
+	border-radius: 4px;
 }
 
 .container-redes{

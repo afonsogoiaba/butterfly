@@ -57,11 +57,16 @@
 	.container-work{
 		display: flex;
 		flex-direction: row-reverse;
-		padding: var(--padding-inteiro);
+		padding: var(--metade-padding);
 	}
 
 	.image-work{
 		width: 70%;
+		margin: auto;
+	}
+
+	.image-work img{
+		border-radius: 0;
 	}
 
 	.texto-work{
