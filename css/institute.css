@@ -1,3 +1,100 @@
-.first-child{
+section{
 	height: 100vh;
+}
+
+.child{
+	filter: brightness(80%) saturate(100%) contrast(110%);
+	position: relative;
+}
+
+.child h2{
+	top: 25%;
+	left: 5%;
+	text-shadow: 3px 3px 5px #000;
+	font-weight: 900;
+	font-size: 1.4rem;
+	width: 80%;
+	position: absolute;
+	color: var(--branco);
+}
+
+.peoples{
+	background: url(../img/institute/peoples.JPG) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.song{
+	background: url(../img/institute/jean.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.dance{
+	background: url(../img/institute/dance.JPG) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.literature{
+	background: url(../img/institute/literature.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.obrigado{
+	background: url(../img/institute/obrigado.JPG) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.obrigado h2{
+	top: 15%;
+}
+
+@media screen and (min-width: 640px){
+	.child h2{
+		font-size: 2.3rem;
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1224px){
+	.container-menu-social-lingua{
+		opacity: 1 !important;
+	}
+
+	.container-lingua{
+		animation-delay: 2s !important;
+	}
+
+	.container-lingua{
+		right: 3%;
+		animation-delay: 1s;
+	}
+
+	.container-redes{
+		display: none;
+	}
+
+	.child h2{
+		font-size: 3.5rem;
+		width: 650px;
+		left: 2%;
+		top: 30%;
+	}
+
+	.obrigado h2{
+		top: 50%;
+	}
 }
