@@ -128,6 +128,11 @@ $(function() {
       pt: "Finalizado em 01/12/2018"
     },
 
+    "Aborted in 26/02/2019": {
+      en: "Aborted in 26/02/2019",
+      pt: "Abortado em 26/02/2019"
+    },
+
     "In progress": {
       en: "In progress",
       pt: "Em Progresso"

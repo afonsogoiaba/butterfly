@@ -88,7 +88,7 @@ header{
 	}
 
 	.container-redes{
-		animation-delay: 1.5s !important;
+		display: none !important;
 	}
 
 	.white .logo h1,
