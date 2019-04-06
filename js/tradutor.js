@@ -138,18 +138,18 @@ $(function() {
       pt: "Em Progresso"
     },
 
-    "This project was developed during the first semester of 2017 to obtain a note on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the objective of developing a portfolio of Web Designer.":{
-      en: "This project was developed during the first semester of 2017 to obtain a note on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the objective of developing a portfolio of Web Designer.",
+    "This project was developed during the first semester of 2017 to obtain a grade on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the goal of developing a portfolio of Web Designer.":{
+      en: "This project was developed during the first semester of 2017 to obtain a grade on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the goal of developing a portfolio of Web Designer.",
       pt: "Esse projeto foi desenvolvido durante o primeiro semestre de 2017 para obtenção de nota na disciplina de Linguagem de Apresentação e Estruturação de Conteúdos 1. Foi o trabalho final da matéria com o objetivo de desenvolver uma portfólio de Web Designer."
     },
 
-    "This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its objective was to make students produce a portfolio based on the knowledge learned in the classroom.":{
-      en: "This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its objective was to make students produce a portfolio based on the knowledge learned in the classroom.",
+    "This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its goal was to make students produce a portfolio based on the knowledge acquired in the classroom.":{
+      en: "This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its goal was to make students produce a portfolio based on the knowledge acquired in the classroom.",
       pt: "Este projeto foi desenvolvido durante o primeiro semestre de 2017 para obter uma nota na matéria de Linguagem de Apresentação e Estruturação de Conteúdo 1. Seu objetivo era fazer com que os alunos produzissem um portfólio baseado no conhecimento aprendido em sala de aula."
     },
 
-    "Limbo Driver was a system proposal for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for tasks simple.":{
-      en: "Limbo Driver was a system proposal for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for tasks simple.",
+    "Limbo Driver was a the proposed system for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for simple tasks.":{
+      en: "Limbo Driver was a the proposed system for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for simple tasks.",
       pt: "O Limbo Driver foi uma proposta de sistema para o segundo semestre de 2017 para obter uma nota na disciplina de Disciplina de Apresentação e Estruturação de Conteúdos 2. Funciona como o Google Drive, mas com um sistema de acesso por token, descartando usuário e senha para tarefas simples."
     },
 

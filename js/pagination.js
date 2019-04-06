@@ -44,9 +44,9 @@ function popula(id, inicio, fim, sub){
 									 ];
 
 	//vetor das descrições dos projetos; 
-	let arrDescricao = ['This project was developed during the first semester of 2017 to obtain a note on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the objective of developing a portfolio of Web Designer.',
-											'This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its objective was to make students produce a portfolio based on the knowledge learned in the classroom.',
-											'Limbo Driver was a system proposal for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for tasks simple.',
+	let arrDescricao = ['This project was developed during the first semester of 2017 to obtain a grade on the subject of Presentation Language and Content Structuring 1. It was the final work of the subject with the goal of developing a portfolio of Web Designer.',
+											'This project was developed during the first semester of 2017 to obtain a grade in the subject of Presentation Language and Content Structuring 1. Its goal was to make students produce a portfolio based on the knowledge acquired in the classroom.',
+											'Limbo Driver was a the proposed system for the second half of 2017 to get a grade in the Discipline of Presentation and Content Structuring 2 language. It works like Google Drive, but with a token access system, discarding user and password for simple tasks.',
 											'Yago e Aldair are a cover duo known in the Dourados / MS region. They did a show in the space Quintal Espetos and to publicize the place, they needed an art for a banner that would spread by the city. This was the first job I did as Graphic Designer.',
 											'Portfolio of the stars was a project developed during the second semester of 2017 as final work of the discipline of Language of Presentation and Structuring of Contents 2. The goal was to create a responsive web page applying the knowledge gained in both subjects.',
 											'Portwiki was my course completion work from highschool (TCC). His idea was based on the largest programming learning platform: w3schools.com, but intended to function as a mini-course management platform for the federal institute in question.',
