@@ -277,7 +277,7 @@
 	}
 
 	.texto-autor p{
-		width: 80%;
+		width: 65%;
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-size: var(--font-primary-title);
