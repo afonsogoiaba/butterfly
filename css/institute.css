@@ -64,11 +64,11 @@ section{
 }
 
 .literature h2{
-	top: 5%;
+	top: 	5%;
 }
 
 .obrigado h2{
-	top: 15%;
+	top: 10%;
 }
 
 @media screen and (min-width: 640px){
@@ -79,8 +79,18 @@ section{
 }
 
 @media screen and (min-width: 1224px){
+
+	.white{
+		background: var(--preto);
+	}
+
+.white .logo h1,
+.white .logo span,
+.white nav a {
+		color: var(--branco);
+	}
 	.container-menu-social-lingua{
-		opacity: 1 !important;
+		opacity: 1 !important;,
 	}
 
 	.container-lingua{
