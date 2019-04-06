@@ -58,6 +58,15 @@ section{
 	background-size: cover;
 }
 
+
+.song h2{
+	top: 35%;
+}
+
+.literature h2{
+	top: 5%;
+}
+
 .obrigado h2{
 	top: 15%;
 }
