@@ -90,7 +90,7 @@ section{
 		color: var(--branco);
 	}
 	.container-menu-social-lingua{
-		opacity: 1 !important;,
+		opacity: 1 !important;
 	}
 
 	.container-lingua{
@@ -99,6 +99,10 @@ section{
 
 	.container-lingua{
 		right: 3%;
+		
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
 		animation-delay: 1s;
 	}
 

@@ -10,8 +10,19 @@
 		left: 0;
 		top: -400px;
 
+		-webkit-animation: texto-div 1s;
+		-moz-animation: texto-div 1s;
+		-o-animation: texto-div 1s;
 		animation: texto-div 1s;
+
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
 		animation-delay: 1s;
+
+		-webkit-animation-fill-mode: forwards;
+		-moz-animation-fill-mode: forwards;
+		-o-animation-fill-mode: forwards;
 		animation-fill-mode: forwards;
 	}
 

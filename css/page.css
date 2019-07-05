@@ -84,6 +84,9 @@ header{
 	}
 
 	.container-lingua{
+		-webkit-animation-delay: 1s !important;
+		-moz-animation-delay: 1s !important;
+		-o-animation-delay: 1s !important;
 		animation-delay: 1s !important;
 	}
 

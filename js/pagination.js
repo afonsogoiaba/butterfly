@@ -142,10 +142,15 @@ function popula(id, inicio, fim, sub){
 // ele recebe os dados do localStorage e passa para a função de popular a página;
 // que por sua vez, escreve os projetos na pagina;
 function reloadId(){
-	let key = localStorage.getItem('key');
-	let inicio = localStorage.getItem('inicio');
-	let fim = localStorage.getItem('fim');
-	let sub = localStorage.getItem('subtitulo');
+	if(localStorage.length == 0){
+		popula(0, 0, 3, 0);
+	}
+	else{
+		let key = localStorage.getItem('key');
+		let inicio = localStorage.getItem('inicio');
+		let fim = localStorage.getItem('fim');
+		let sub = localStorage.getItem('subtitulo');
 
-	popula(key, inicio, fim, sub);
+		popula(key, inicio, fim, sub);
+	}
 }

@@ -39,8 +39,19 @@ header{
 	overflow-y: scroll;
 	background: transparent;
 
+	-webkit-animation: transparente 1s;
+	-moz-animation: transparente 1s;
+	-o-animation: transparente 1s;
 	animation: transparente 1s;
+
+	-webkit-animation-delay: 1s; 
+	-moz-animation-delay: 1s; 
+	-o-animation-delay: 1s;
 	animation-delay: 1s; 
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
@@ -74,8 +85,20 @@ header a{
 	width: 75px;
 	position: relative;
 	top: -300px;
+
+	-webkit-animation: imagem-slide 1s;
+	-moz-animation: imagem-slide 1s;
+	-o-animation: imagem-slide 1s;
 	animation: imagem-slide 1s;
+
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;	
 }
 .logo h1{
@@ -84,8 +107,20 @@ header a{
 	font-size: var(--font-primary-title);
 	position: relative;
 	left: -2000px;
+
+	-webkit-animation: left-slide 1s;
+	-moz-animation: left-slide 1s;
+	-o-animation: left-slide 1s;
 	animation: left-slide 1s;
+
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
 	animation-delay: 1s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
@@ -95,8 +130,19 @@ header a{
 	text-transform: uppercase;
 	opacity: 0;
 
+	-webkit-animation: fade 1.2s;
+	-moz-animation: fade 1.2s;
+	-o-animation: fade 1.2s;
 	animation: fade 1.2s;
+
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
 	animation-delay: 2s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;	
 
 }
@@ -118,10 +164,21 @@ header a{
 	border-radius: var(--radius8);
 	background: var(--color-1);
 	margin-bottom: 6px;
-
 	opacity: 0;
+
+	-webkit-animation: fade 2s;
+	-moz-animation: fade 2s;
+	-o-animation: fade 2s;
 	animation: fade 2s;
+
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
 	animation-delay: 2s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
@@ -168,7 +225,14 @@ nav a{
 .container-menu-social-lingua{
 	opacity: 0;
 
+	-webkit-animation-duration: 1.3s;
+	-moz-animation-duration: 1.3s;
+	-o-animation-duration: 1.3s;
 	animation-duration: 1.3s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 .container-midia h4{
@@ -244,15 +308,23 @@ nav a{
 .fundo-home{
 	height: 100vh;
 	background: url(../img/borboleta.gif) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
 	background-size: contain;
 	background-color: #000;
-
+	position: relative;
 	opacity: 0;
 
+	-webkit-animation: fade 2s;
+	-moz-animation: fade 2s;
+	-o-animation: fade 2s;
 	animation: fade 2s;
-	animation-fill-mode: forwards;
-	position: relative;
-}
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;}
 
 .texto-home{
 	position: absolute;
@@ -266,11 +338,22 @@ nav a{
 	width: 90%;
 	padding: var(--padding-inteiro);
 	font-weight: 700;
-
 	position: relative;
 	left: -2000px;
+
+	-webkit-animation: left-slide 2s;
+	-moz-animation: left-slide 2s;
+	-o-animation: left-slide 2s;
 	animation: left-slide 2s;
+
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
 	animation-delay: 1.4s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
@@ -298,9 +381,19 @@ nav a{
 	margin: 0 auto;
 	border-radius: 5px;
 
-
+	-webkit-animation: btn-start 2s;
+	-moz-animation: btn-start 2s;
+	-o-animation: btn-start 2s;
 	animation: btn-start 2s;
+
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-o-animation-delay: 3s;
 	animation-delay: 3s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 
@@ -310,6 +403,9 @@ nav a{
 
 .portfolio{
 	background: url(../img/abstract.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -406,6 +502,9 @@ nav a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-image: -webkit-linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
+	background-image: -moz-linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
+	background-image: -o-linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
 	background-image: linear-gradient(to top right, rgba(30, 216, 213,0.95) 50%, rgba(30, 216, 213,0.8) 50%);
 }
 
@@ -441,6 +540,9 @@ nav a{
 .speclist{
 	padding-top: var(--padding-inteiro);
 	padding-bottom: var(--padding-inteiro);
+	background-image: -webkit-linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
+	background-image: -moz-linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
+	background-image: -o-linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
 	background-image: linear-gradient(to top left, rgba(30, 216, 213,0.8) 50%, rgba(30, 216, 213,0.95) 50%);	
 }
 
@@ -486,38 +588,65 @@ nav a{
 }
 
 .html{
+	background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 70%);
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 70%);
+	background-image: -o-linear-gradient(to right, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 70%);
 	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 70%);
 }
 
 .css{
+	background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.8) 65%, rgba(255,255,255,0.9) 35%);
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.8) 65%, rgba(255,255,255,0.9) 35%);
+	background-image: -o-linear-gradient(to right, rgba(0,0,0,0.8) 65%, rgba(255,255,255,0.9) 35%);
 	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 65%, rgba(255,255,255,0.9) 35%);
 }
 
 .js{
+	background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);	
+	background-image: -o-linear-gradient(to right, rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);	
 	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);	
 }
 
 .jquery{
+	background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0.8) 35%, rgba(255,255,255,0.9) 35%);
+	background-image: -moz-linear-gradient(to right, rgba(0,0,0,0.8) 35%, rgba(255,255,255,0.9) 35%);
+	background-image: -o-linear-gradient(to right, rgba(0,0,0,0.8) 35%, rgba(255,255,255,0.9) 35%);
 	background-image: linear-gradient(to right, rgba(0,0,0,0.8) 35%, rgba(255,255,255,0.9) 35%);
 }
 
 .animate{
+	background-image: -webkit-linear-gradient(to right,	rgba(0,0,0,0.8) 20%, rgba(255,255,255,0.9) 20%);
+	background-image: -moz-linear-gradient(to right,	rgba(0,0,0,0.8) 20%, rgba(255,255,255,0.9) 20%);
+	background-image: -o-linear-gradient(to right,	rgba(0,0,0,0.8) 20%, rgba(255,255,255,0.9) 20%);
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 20%, rgba(255,255,255,0.9) 20%);
 }
 
 .node{
+	background-image: -webkit-linear-gradient(to right,	rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
+	background-image: -moz-linear-gradient(to right,	rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
+	background-image: -o-linear-gradient(to right,	rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 40%, rgba(255,255,255,0.9) 40%);
 }
 
 .sql{
+	background-image: -webkit-linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
+	background-image: -moz-linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
+	background-image: -o-linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 30%, rgba(255,255,255,0.9) 30%);
 }
 
 .illustrator{
+	background-image: -webkit-linear-gradient(to right,	rgba(0,0,0,0.8) 60%, rgba(255,255,255,0.9) 60%);	
+	background-image: -moz-linear-gradient(to right,	rgba(0,0,0,0.8) 60%, rgba(255,255,255,0.9) 60%);	
+	background-image: -o-linear-gradient(to right,	rgba(0,0,0,0.8) 60%, rgba(255,255,255,0.9) 60%);	
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 60%, rgba(255,255,255,0.9) 60%);	
 }
 
 .photoshop{
+	background-image: -webkit-linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
+	background-image: -moz-linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
+	background-image: -o-linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 	background-image: linear-gradient(to right,	rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.9) 50%);
 }
 
